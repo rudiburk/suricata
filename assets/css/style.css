@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+/*/ <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
+.navbar {
+    background-color: #E83E8C;
+}
+
+.navbar img {
+width: 132px;
+height: 53px;
+margin-left: 30px;
+}
