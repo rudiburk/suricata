@@ -1,25 +1,51 @@
-* {
-    margin: 0;
-    border: 0;
-}
+    :root {
+        --open-sans: "Open Sans", sans-serif;
+        --regular: 400;
+        --bold: 700;
+        --black: #212529;
+        --white: white;
+        --pink: #e83e8c;
+        --blue: #17a2b8;
 
-/*/ <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
+    }
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}*/
-.navbar {
-    background-color: #E83E8C;
-}
+    .os-regular{
+        font-family: var(--open-sans)!important;
+        font-weight: var(--regular)!important;
+    }
+    .os-bold{
+        font-family: var(--open-sans)!important;
+        font-weight: var(--bold)!important;
+    }
+    .c-pink{
+        color: var(--pink)!important;
+    }
+    .c-white{
+        color: var(--white)!important;
+    }
+    .c-black{
+        color: var(--black)!important;
+    }
+    .c-blue{
+        color: var(--blue)!important;
+    }
+    .bg-pink{
+        background-color: var(--pink)!important;
+    }
+    .bg-white{
+        background-color: var(--white)!important;
+    }
+    .bg-black{
+        background-color: var(--black)!important;
+    }
+    .bg-blue{
+        background-color: var(--blue)!important;
+    }
 
-.navbar img {
-width: 132px;
-height: 53px;
-margin-left: 30px;
-}
+    .navbar {
+
+    }
+
+    .navbar-brand img{
+    max-width: 132px;
+    }
