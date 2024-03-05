@@ -46,6 +46,33 @@
 
     }
 
+    section {
+
+    }
+
     .navbar-brand img{
     max-width: 132px;
     }
+
+section {
+    height: 170px;
+    padding: 58px 120px;
+}
+
+section h2 {
+    font-size: 40px;
+    font-weight: 350px;
+}
+
+.icons {
+    font-size: 53px;
+}
+
+footer {
+
+}
+
+footer img{
+height: 100px;
+width: 54px;
+}
