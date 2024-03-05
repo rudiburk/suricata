@@ -1,77 +1,69 @@
-    :root {
-        --open-sans: "Open Sans", sans-serif;
-        --regular: 400;
-        --bold: 700;
-        --black: #212529;
-        --white: white;
-        --pink: #e83e8c;
-        --blue: #17a2b8;
-
+:root {
+    --open-sans: "Open Sans", sans-serif;
+    --regular: 400;
+    --bold: 700;
+    --black: #212529;
+    --white: white;
+    --pink: #e83e8c;
+    --blue: #17a2b8;
     }
 
-    .os-regular{
-        font-family: var(--open-sans)!important;
-        font-weight: var(--regular)!important;
+.os-regular{
+    font-family: var(--open-sans)!important;
+    font-weight: var(--regular)!important;
     }
-    .os-bold{
-        font-family: var(--open-sans)!important;
-        font-weight: var(--bold)!important;
+.os-bold{
+    font-family: var(--open-sans)!important;
+    font-weight: var(--bold)!important;
     }
-    .c-pink{
-        color: var(--pink)!important;
+.c-pink{
+    color: var(--pink)!important;
     }
-    .c-white{
-        color: var(--white)!important;
+.c-white{
+    color: var(--white)!important;
     }
-    .c-black{
-        color: var(--black)!important;
+.c-black{
+    color: var(--black)!important;
     }
-    .c-blue{
-        color: var(--blue)!important;
+.c-blue{
+    color: var(--blue)!important;
     }
-    .bg-pink{
-        background-color: var(--pink)!important;
+.bg-pink{
+    background-color: var(--pink)!important;
     }
-    .bg-white{
-        background-color: var(--white)!important;
+.bg-white{
+    background-color: var(--white)!important;
     }
-    .bg-black{
-        background-color: var(--black)!important;
+.bg-black{
+    background-color: var(--black)!important;
     }
-    .bg-blue{
-        background-color: var(--blue)!important;
+.bg-blue{
+    background-color: var(--blue)!important;
     }
-
-    .navbar {
-
+h1 {
+    font-size: 60px;
+    color: #707070;
     }
-
-    section {
-
-    }
-
-    .navbar-brand img{
+.navbar-brand img{
     max-width: 132px;
     }
-
 section {
     height: 170px;
-    padding: 58px 120px;
-}
-
+    margin-top: 150px;
+    }
 section h2 {
     font-size: 40px;
     font-weight: 350px;
-}
-
+    padding-top: 58px;
+    padding-left: 120px;
+    padding-right: 54px;
+    }
 .icons {
-    font-size: 53px;
-}
-
-footer {
-
-}
-
+    font-size: 80px;
+    }
+.fa-brands {
+    padding: 45px 10px;
+    }
 footer img{
 height: 100px;
 width: 54px;
